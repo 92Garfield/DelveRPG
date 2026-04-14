@@ -1,24 +1,24 @@
 # DelveRPG
 
-An ARPG-style HUD for World of Warcraft that makes delving feel more like an actual adventure.
+**An ARPG-style HUD that makes delving feel more like an actual adventure.**
 
-Delves reward you with Companion XP, stacking Boons and gold — but none of that is shown in a satisfying way by the default UI. DelveRPG adds a small, draggable overlay that tracks all three with animated bars, floating gain labels and live count-up numbers.
+In delves you gather a couple of things that are not portrayed nicely in the default UI as you make progress: XP, Boons and gold at least. DelveRPG adds a small HUD that tracks these things in a way that makes them feel more rewarding and satisfying to earn. The HUD is designed to be simple and unobtrusive, but also visually appealing and informative.
 
 ## Features
 
-- **Companion XP Bar** — Tracks Brann's friendship progression with a smooth animated fill. Shows the current level, XP fraction, and total XP earned this delve. A floating `+XP` label pops off the bar on each gain.
-- **Boon Display** — Reads the stacking Boons buff and shows every active stat bonus (Max HP, Main Stat, Haste, Crit, etc.) in a compact 2-column grid. Only non-zero stats are shown; the panel grows and shrinks dynamically. Values count up in real time on change.
-- **Gold Gained** — Tracks total gold earned since entering the delve. Resets automatically on each new run. Counts up with a floating gain label on each tick.
+- **Companion XP** — Shows Valeera's level as a progress bar. Each time she earns XP the bar smoothly fills and a floating `+XP` label pops off it. The current level label, the raw fraction and a running total of XP earned this delve are shown so you always know how close the next level is.
+- **Boons** — Tracks the stacking Boons buff received from the blue bags (which also contain a big amount of XP for Valeera). Whenever a stat ticks up, the value counts up in real time and a floating gain label pops off the panel.
+- **Gold Gained** — Keeps a simple running total of gold earned since you entered the delve. Resets automatically on each new run.
 
 ## Configuration
 
-Open the options panel via **ESC → Interface → AddOns → DelveRPG**, or type `/drpg config`.
+Open the options panel via **ESC → Interface → AddOns → DelveRPG**.
 
 - **Enable HUD** — Master on/off toggle
 - **Show Only in Delves** — Suppresses the HUD and all event handling when outside a delve
 - **HUD Scale** — Scale the entire overlay (0.5 – 2.0)
 - **Position X / Y** — Offset from screen centre
-- **Companion Faction ID** — Defaults to 2744 (Brann Bronzebeard)
+- **Companion Faction ID** — Friendship faction ID for the companion XP bar
 - **Reset Gold Counter** — Resets the gold baseline to now
 
 ## Slash Commands

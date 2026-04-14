@@ -1,5 +1,5 @@
 -- DelveRPG: Companion XP Bar widget
--- Tracks Brann Bronzebeard (faction 2744) friendship progression.
+-- Tracks Valeera Sanguinar (faction 2744) friendship progression.
 -- Displays a status bar for the current level's XP progress with
 -- animated fill and a floating "+XP" label on gain.
 -- Author: Demonperson a.k.a. 92Garfield
