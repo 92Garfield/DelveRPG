@@ -1,0 +1,32 @@
+## Interface: 120000
+## Title: DelveRPG
+## Notes: ARPG-style delve HUD – companion XP, boon bonuses and gold gained
+## Author: Demonperson a.k.a. 92Garfield
+## Version: 1.0.0
+## SavedVariables: DelveRPGDB
+
+# Libraries
+lib\LibStub\LibStub.lua
+lib\CallbackHandler-1.0\CallbackHandler-1.0.xml
+lib\AceAddon-3.0\AceAddon-3.0.xml
+lib\AceDB-3.0\AceDB-3.0.xml
+lib\AceConsole-3.0\AceConsole-3.0.xml
+lib\AceEvent-3.0\AceEvent-3.0.xml
+lib\AceGUI-3.0\AceGUI-3.0.xml
+lib\AceConfig-3.0\AceConfig-3.0.xml
+lib\AceConfigRegistry-3.0\AceConfigRegistry-3.0.xml
+lib\AceConfigDialog-3.0\AceConfigDialog-3.0.xml
+
+# Core utilities
+core\Utils.lua
+
+# HUD widgets (order matters – FloatingText must load before widgets that use it)
+hud\FloatingText.lua
+hud\CompanionXPBar.lua
+hud\BoonDisplay.lua
+hud\GoldDisplay.lua
+hud\HUDContainer.lua
+
+# Main addon and options
+DelveRPG.lua
+DelveRPGOptions.lua

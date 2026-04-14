@@ -1,0 +1,25 @@
+# WoW Saved Variables
+*.lua.bak
+*.toc.bak
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# CurseForge specific files
+CurseForgeDescription.txt
